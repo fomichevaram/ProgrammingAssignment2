@@ -13,7 +13,6 @@ makeCacheMatrix <- function(x = matrix()) {
     list(set=set,get=get,seti=seti,geti=geti)
 }
 
-
 ## This function call has two steps: calculate the inverse matrix or
 ## if it exists - return that matrix from cache
 
